@@ -37,6 +37,7 @@ function adicionarTarefa(tarefa) {
 function criarTagLi(tarefa) {
 
     let li = document.createElement('li');
+    li.id = tarefa.id;
 
     let span = document.createElement('span');
     span.classList.add('texto-tarefa');
@@ -68,5 +69,11 @@ function editar(idTarefa) {
 }
 
 function excluir(idTarefa) {
-    alert(idTarefa);
+    let confirmacao = window.confirm('Tem certeza que deseja excluir? ');
+    if (confirmacao) {
+        let li = document.getElementById('' + idTarefa + '');
+        if (li) {
+            listaTarefas.removeChild(li);
+        }
+    }
 }
