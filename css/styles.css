@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    color: #333;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    border: none;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .4s;
+    border-radius: 8px;
+    color: #ccc;
+}
+
+button:hover {
+    background-color: #4F4F4F;
+}
+
+button:hover>i {
+    color: #fff;
+}
+
+button i {
+    color: #ccc;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.hide {
+    display: none;
+}
+
+/* Todo header */
+h1 {
+    color: #ccc;
+}
+
+.todo-container {
+    max-width: 600px;
+    margin: 3rem auto;
+    background-color: #222222;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.todo-container header {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #333;
+}
+
+/* Todo form */
+#todo-form, #edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+}
+
+#todo-form p, #edit-form p {
+    margin-bottom: .5rem;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.form-control {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control input {
+    border-radius: 8px;
+    border: none;
+    background-color: #313131;
+    color: #fdfdfd;
+    padding: .25rem .5rem;
+    flex-grow: 1;
+    margin-right: .5rem;
+}
+
+#cancel-edit-btn {
+    margin-top: 1rem;
+}
+
+/* Todo list */
+.todo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+    transition: .3s;
+}
+
+.todo h3 {
+    flex: 1;
+    font-size: .9rem;
+    color: #ccc;
+}
+
+.todo button {
+    margin-left: .4rem;
+}
+
+.done h3 {
+    text-decoration: line-through;
+    font-style: italic;
+    color: green;
+}
