@@ -4,4 +4,4 @@ Projeto em desenvolvimento
 
 > ## O que falta?
 
-Utilizar o localStorage para armazemar os dados.
+Utilizar o localStorage para armazenar os dados.
