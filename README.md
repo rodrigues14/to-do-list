@@ -1,7 +1,24 @@
-# to-do-list
+# To-Do List
 
-Projeto em desenvolvimento
+# Sobre o projeto
 
-> ## O que falta?
+[Clique aqui para acessar o projeto]()
 
-Utilizar o localStorage para armazenar os dados.
+Projeto desenvolvido durante junto ao professor Matheus Battisti, onde eu fiz algumas alterações e pude práticar mais JS.
+
+
+# Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- GIT
+- GitHub
+
+## Implantação em produção
+- Front end web: GitHub pages
+
+# Autor
+
+- Lucas Rodrigues Souza
+- [LinkedIn](https://www.linkedin.com/in/lucas-rodrigues-perfil/)
