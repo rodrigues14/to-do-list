@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-[Clique aqui para acessar o projeto]()
+[Clique aqui para acessar o projeto](https://rodrigues14.github.io/to-do-list/)
 
 Projeto desenvolvido durante junto ao professor Matheus Battisti, onde eu fiz algumas alterações e pude práticar mais JS.
 
