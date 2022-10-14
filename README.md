@@ -17,7 +17,7 @@ Consiste em um to-do list onde o usuário pode adicionar uma nova tarefa, editar
 - GitHub
 
 ## Implantação em produção
-- Front end web: GitHub pages
+- GitHub pages
 
 # Autor
 
